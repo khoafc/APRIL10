@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import React, { Component, useState } from "react";
-import "./App.css";
+import "../App.css";
 import axios from "axios";
 import { useNavigate, Navigate } from "react-router-dom";
 import { auth } from "./Firebase";
@@ -19,8 +19,6 @@ function SignIn() {
               history("/test");       
         let Admin= async () => {
           let formField = new FormData();
-          // formField.append("content", content);
-          console.log("VY VY")
           formField.append("email", email);
           formField.append("action", "add-admin");
           await axios({

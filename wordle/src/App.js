@@ -6,12 +6,12 @@ import {
   Router,
 } from "react-router-dom";
 import "./App.css";
-import Game from "./Game";
+import Game from "./New/Game";
 import Header from "./Components/Header";
-import Test from "./pages/Test";
-import { onClick, signInWithGoogle } from "./Firebase";
+import Test from "./New/Test";
+import { onClick, signInWithGoogle } from "./New/Firebase";
 // import { SignIn, SomeComponent } from "./Firebase";
-import SignIn from "./SignIn";
+import SignIn from "./New/SignIn";
 
 class App extends Component {
 

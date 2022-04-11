@@ -1,15 +1,13 @@
 import React, { useState, useEffect, Component } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import { ReactComponent as ArrowLeft } from "../assets/arrow-left.svg";
 import { useNavigate } from "react-router-dom";
 import { useHistory, } from "react-router";
 import axios from "axios";
-import SignOut from "../SignOut";
-import SignIn from "../SignIn";
-import Options from "../Options";
-import EssayForm from "../EssayForm";
-import Track from "../Track";
+import SignOut from "./SignOut";
+import Options from "./Options";
+import EssayForm from "./EssayForm";
+import Track from "./Track";
 class Test extends Component {
   constructor(props) {
     super(props);

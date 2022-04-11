@@ -1,8 +1,8 @@
 import React, { useState,useEffect } from "react";
-import "./App.css";
-import Header from "./Components/Header";
-import NestedGrid from "./Components/GameGrid";
-import Keyboard from "./Components/Keyboard/Keyboard";
+import "../App.css";
+import Header from "../Components/Header";
+import NestedGrid from "../Components/GameGrid";
+import Keyboard from "../Components/Keyboard/Keyboard";
 import axios from "axios";
 import { useNavigate, Navigate } from "react-router-dom";
 
